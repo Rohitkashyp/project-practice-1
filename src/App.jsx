@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Main from './components/Main'
 
 function App() {
   return (
     <>
     <Navbar/>
-      <h1>Hello Project practice 1</h1>
+      <Main/>
       <Footer/>
     </>
   )
